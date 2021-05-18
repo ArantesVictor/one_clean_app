@@ -4,6 +4,8 @@ import 'dart:math';
 import 'package:flutter/cupertino.dart';
 import 'charter.dart';
 
+//usado no home e register
+
 class CharterProvider with ChangeNotifier {
   List<Charter> _items = [];
 

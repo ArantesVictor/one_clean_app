@@ -14,7 +14,6 @@ class CharterFormScreen extends StatefulWidget {
 class _CharterFormScreenState extends State<CharterFormScreen> {
   final _nameController = TextEditingController();
   final _classController = TextEditingController();
-  final _trendController = TextEditingController();
   File _pickedImage;
 
   void _selectImage(File pickedImage) {
@@ -64,13 +63,6 @@ class _CharterFormScreenState extends State<CharterFormScreen> {
                     controller: _classController,
                     decoration: InputDecoration(
                       labelText: 'Classe',
-                    ),
-                  ),
-                  SizedBox(height: 10),
-                  TextField(
-                    controller: _trendController,
-                    decoration: InputDecoration(
-                      labelText: 'Tendencia',
                     ),
                   ),
                 ],
